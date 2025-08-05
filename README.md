@@ -30,6 +30,10 @@ Bancos de dados relacionais promovem a integridade dos dados por restrições co
 
 Transações em bancos de dados relacionais seguem as propriedades ACID, dando credibilidade, confiabilidade e a integridade das operações. 
 
+#### Exemplo de uso
+
+![foto](https://lh4.googleusercontent.com/proxy/TaKU3na8GmoM16qamk2q1-_5DSQyJIrZxYAHl7Uc79wL-hF1PD21rru7DjPrZkoOFN5P3AXZBAmQYWKVbCy6acy7bTZrOnaPTzh4WpUjkDA6aug1maaNv3vJn4roezwnzFXcZPWxbe4Cst01ZHhE)
+
 #### O que é um banco de dados não relacional?
 
 Um banco de dados não relacional é um modelo para gerenciar um banco de dados que é diferente dos bancos de dados relacionais. Ao invés de usar tabelas com linhas e colunas para guardar dados, utilizam uma forma de armazenar dados mais flexível, como documentos, chave-valor, colunas ou grafos, para armazenar e acessar informações. 
@@ -55,6 +59,12 @@ Utilizam modelo como chave-valor, documentos, grafos ou colunas.
 - Desempenho otimizado:
 
 Oferecem desempenho superior em leitura, principalmente em cenários de alta demanda. 
+
+#### Exemplo de uso
+![foto](https://blog.debugeverything.com/wp-content/uploads/2021/04/banco-de-dados-nao-relacional-key-value-store.jpg)
+
+
+
 
 #### O que é normalização? Qual seu objetivo?
 

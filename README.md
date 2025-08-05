@@ -1,5 +1,7 @@
 ## Explorando Banco de Dados Relacional Não Relacional e Normalização
 
+![gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzQwYXZ0aW5rb3lxZ2xsdHh5dHYwamMyM3Z6dzMyMWk4N2M0cnY5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6CAFIoo26LkJxjk3Gc/giphy.gif)
+
 #### Introdução
 
 Com o crescimento alto da geração de dados nos últimos anos, escolher um modelo de banco de dados adequado se tornou um fator estratégico no desenvolvimento de sistemas e aplicações. Dois dos principais paradigmas de armazenamento de dados são os bancos de dados relacionais e os bancos de dados não relacionais (NoSQL). Cada um apresenta características distintas, que os tornam mais adequados para determinados tipos de projetos, dependendo do volume, estrutura e complexidade dos dados. Enquanto os bancos relacionais se destacam pela organização estruturada em tabelas e forte consistência, os bancos não relacionais oferecem maior flexibilidade, escalabilidade e desempenho em ambientes dinâmicos e com dados semi-estruturados ou não estruturados. Este texto explora as principais diferenças entre esses dois modelos, suas vantagens, limitações e os cenários em que cada um é mais recomendado.
@@ -68,11 +70,33 @@ Oferecem desempenho superior em leitura, principalmente em cenários de alta dem
 Normalização é um processo que tem intenção criar padrões e regras para promover a uniformidade, interoperabilidade e qualidade em várias áreas, como dados, produtos, processos e sistemas. É a atividade que criar normas técnicas para padronizar, deixar mais simples  e organizar atividades e produtos, para facilitar o uso e a compreensão. 
 A normalização é utilizada muito mais como um meio para se alcançar a redução de custo da produção e do produto final, mantendo ou melhorando a qualidade.
 
-![gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzQwYXZ0aW5rb3lxZ2xsdHh5dHYwamMyM3Z6dzMyMWk4N2M0cnY5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6CAFIoo26LkJxjk3Gc/giphy.gif)
-
 #### Exemplo feito por mim de tabela não normalizada
 
-![gif]
+![gif]({86E6C9AB-E593-41D3-94DC-7D7DF9BD5C64}.png)
+
+json 
+CopiarEditar 
+{ 
+"pedido_id": 1, 
+"cliente": { 
+}, 
+"nome": "João Silva", 
+"endereco": "Rua A, 123" 
+"itens": [ 
+{ 
+"produto_id": 10, 
+"nome": "Caneta", 
+"quantidade": 2, 
+"preco_total": 4.00 
+}, 
+{ 
+"produto_id": 11, 
+} 
+] 
+} 
+"nome": "Lápis", 
+"quantidade": 1, 
+"preco_total": 2.00 
 
 
 

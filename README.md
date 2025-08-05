@@ -74,30 +74,93 @@ A normalização é utilizada muito mais como um meio para se alcançar a reduç
 
 ![gif]({86E6C9AB-E593-41D3-94DC-7D7DF9BD5C64}.png)
 
-json 
-CopiarEditar 
-{ 
-"pedido_id": 1, 
-"cliente": { 
-}, 
-"nome": "João Silva", 
-"endereco": "Rua A, 123" 
-"itens": [ 
-{ 
-"produto_id": 10, 
-"nome": "Caneta", 
-"quantidade": 2, 
-"preco_total": 4.00 
-}, 
-{ 
-"produto_id": 11, 
-} 
-] 
-} 
-"nome": "Lápis", 
-"quantidade": 1, 
-"preco_total": 2.00 
+#### Normalização até a 3° forma Normal (3FN)
+
+![foto]({69A99969-FB12-4F27-94E9-F19F5E11B00F}.png)
+
+#### Programção em Json
 
 
+    "clientes": 
+    
+    { 
+    
+    "ClienteID": 1,
 
+    "Nome": "João Silva", 
 
+    "Endereco": "Rua A, 123" 
+    
+    }, 
+
+    { 
+    
+    "ClienteID": 2, 
+  
+    "Nome": 
+    "Maria Oliveira",
+    "Endereco": "Avenida B, 456" 
+    
+    } 
+
+    ],
+
+    "produtos":
+    
+    [ { "ProdutoID": 1,
+    "NomeProduto": 
+    "Camiseta", 
+    "PrecoUnitario": 50.00 },
+
+    { "ProdutoID": 2, 
+    "NomeProduto":
+    "Calça",
+    "PrecoUnitario":
+    120.00 },
+
+    { "ProdutoID": 3,
+
+    "NomeProduto":
+    "Tênis", 
+    "PrecoUnitario":
+    200.00 } ], 
+    
+    
+    "pedidos": 
+    
+    [ { "PedidoID": 1, 
+    "ClienteID": 1, 
+
+    "Itens": 
+
+    [ { "ProdutoID": 1,
+
+    "Quantidade": 2
+
+    }, 
+    
+    { "ProdutoID": 2, 
+    
+    "Quantidade": 1 
+    } 
+    
+    ] },
+    
+    { "PedidoID":2, 
+
+    "ClienteID": 2, 
+    
+    "Itens":
+
+    [ { "ProdutoID": 3, 
+    
+    "Quantidade": 1
+    }
+
+    ] }, 
+    
+    { "PedidoID" 3, 
+    "ClienteID" 1, 
+    
+    "Itens":
+    [ {
